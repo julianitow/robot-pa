@@ -1,0 +1,30 @@
+{
+  "name": "sample-ts-app",
+  "version": "1.0.0",
+  "description": "Sample typsecript application",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "start:watch": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julien-guillan/typescript-skeleton.git"
+  },
+  "author": "Julianit0w",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julien-guillan/typescript-skeleton/issues"
+  },
+  "homepage": "https://github.com/julien-guillan/typescript-skeleton#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
